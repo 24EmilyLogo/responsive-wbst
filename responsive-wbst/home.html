@@ -6,17 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Venturing Crew 479 - Home</title>
     <link rel="stylesheet" href="aSheet.css">
-    <script src="tpircs.js"></script>
 </head>
 <body>
     <!--Title and Navbar-->
     <h1>VENTURING CREW 479</h1>
     <div>
-        <a href="home.html"></a>
-        <a href="about.html"></a>
-        <a href="contact.html"></a>
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <script src="aScript.js"></script>
     </div>
+
     <!--Slideshow-->
+    <section class="sldsCont">
+    <!--Images with Caption & Slide Num-->
+        <div class="slides">
+            <div class="numtxt">1/4</div>
+            <img class="imgslds" src="plchld1.jpg" alt="random picture 1">
+            <div class="txt">Random Image 1: Banana</div>
+        </div>
+
+        <div class="slides">
+            <div class="numtxt">2/4</div>
+            <img class="imgslds" src="plchld2.jpg" alt="random picture 1">
+            <div class="txt">Random Image 2: Dunana With Tape</div>
+        </div>
+
+        <div class="slides">
+            <div class="numtxt">3/4</div>
+            <img class="imgslds" src="plchld3.jpg" alt="random picture 1">
+            <div class="txt">Random Image 3: horz</div>
+        </div>
+        
+        <div class="slides">
+            <div class="numtxt">4/4</div>
+            <img class="imgslds" src="plchld4.jpg" alt="random picture 1">
+            <div class="txt">Random Image 4: you don't wanna know</div>
+        </div>
+    <!--Arrows/Forward & Back Buttons-->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </section>
 
     <!--Quick Blurb of info-->
     <section>

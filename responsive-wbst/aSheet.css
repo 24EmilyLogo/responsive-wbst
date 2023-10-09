@@ -4,10 +4,23 @@ script{
     border-color:black;
 }
 /*Formatting (not txt/clrs)*/
+table{
+    border:1px solid rgb(255, 255, 255);
+    border-collapse:collapse;
+}
+td, th{
+    border:1px solid rgb(255, 255, 255);
+    padding:5px;
+}
 
+    /*Home*/
+/*Slideshow*/
+.imgslds{
+    width:100%
+}
+.sldsCont{
+    max-width:62.5em
+}
+    /*about*/
 
-    /*home*/
-
-    /*'shop'*/
-
-    /*placeholder for pg 3*/
+    /*Contact*/
