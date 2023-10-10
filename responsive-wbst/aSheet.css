@@ -12,7 +12,9 @@ td, th{
     border:1px solid rgb(255, 255, 255);
     padding:5px;
 }
-
+h1{
+    font-size:2em
+}
     /*Home*/
 /*Slideshow*/
 * {box-sizing:border-box}
@@ -44,6 +46,7 @@ td, th{
     transition:0.5s ease;
     border-radius:0 0.188em 0.188em 0;
     user-select:none;
+    background-color:rgba(0,0,0,0.25);
 }
     /*Move next arrow to the right*/
 .next{
@@ -52,7 +55,7 @@ td, th{
 }
     /*Change bkgrd color on hover*/
 .prev:hover, .next:hover{
-    background-color:rgba(0,0,0,0.8);
+    background-color:rgba(0,0,0,0.5);
 }
     /*Caption Text*/
 .txt{
