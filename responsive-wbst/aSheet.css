@@ -16,10 +16,61 @@ td, th{
     /*Home*/
 /*Slideshow*/
 .imgslds{
-    width:100%
+    width:100%;
 }
+    /*container for slides*/
 .sldsCont{
-    max-width:62.5em
+    max-width:31.25em;
+    position:relative;
+    margin:auto;
+}
+    /*Hide images by default*/
+.slides{
+    display:none;
+}
+    /*Next & prev buttons*/
+.prev, .next{
+    cursor:pointer;
+    position:absolute;
+    top:50%;
+    width:auto;
+    margin-top:-1.375em;
+    padding:1em;
+    color:white;
+    font-weight:bold;
+    font-size:1.125em;
+    transition:0.5s ease;
+    border-radius:0 0.188em 0.188em 0;
+    user-select:none;
+}
+    /*Move next arrow to the right*/
+.next{
+    right:0;
+    border-radius:0.188em 0 0 0.188em;
+}
+    /*Change bkgrd color on hover*/
+.prev:hover, .next:hover{
+    background-color:rgba(0,0,0,0.8);
+}
+    /*Caption Text*/
+.txt{
+    color:#f2f2f2;
+    background-color:rgba(0,0,0,0.5);
+    font-size:15px;
+    padding:8px 12px;
+    position:absolute;
+    bottom:8px;
+    width:100%;
+    text-align:center;
+}
+    /*Slide Number text*/
+.numtxt{
+    color:#f2f2f2;
+    background-color:rgba(0,0,0,0.25);
+    font-size:0.75em;
+    padding:0.5em 0.75em;
+    position:absolute;
+    top:0;
 }
     /*about*/
 
