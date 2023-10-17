@@ -1,4 +1,14 @@
     /*All Pages*/
+/*Navbar*/
+.navigation{
+    text-decoration:none;
+    color:black;
+    line-height:30px;
+    margin:5px;
+}
+.navbar{
+    text-align:center;
+}
 /*Txt and clrs*/
 @import url('https://fonts.googleapis.com/css2?family=Lustria&family=Quattrocento+Sans&family=Raleway&display=swap');
 script{
