@@ -8,9 +8,9 @@
 }
 .navbar{
     text-align:center;
+    font-size: 1.15em;
 }
 /*Txt and clrs*/
-@import url('https://fonts.googleapis.com/css2?family=Lustria&family=Quattrocento+Sans&family=Raleway&display=swap');
 script{
     border-color:black;
 }
@@ -33,7 +33,7 @@ h2{
     font-family:'Quattrocento Sans', sans-serif;
 }
 p{
-    font-size:1em;
+    font-size:.9em;
     font-family: 'Lustria', serif;
 }
     /*Home*/
@@ -100,5 +100,9 @@ p{
     top:0;
 }
     /*about*/
-
+.abtBanner{
+    display:block;
+    margin:auto;
+    width:70%;
+}
     /*Contact*/
