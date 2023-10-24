@@ -20,23 +20,27 @@
     </div>
 
     <img class="banner" src="contactBanner.png" alt="A picture of 4 members on a biking outing">
-    <section>
-        <h2>Contact Us:</h2>
+    <section class="contactSect">
+        <h2>Contact us for information on joining Crew 479:</h2>
         <!-- 
             At some point there needs to be FN and LN ontop of e/o instead of on top of e/o.
             700 px for responsiveness
         -->
-        <label for="firstName">First Name:</label>
-        <input id ="firstName"  name="firstName" type="text">
+        <form action="mailto:emily.logothetis@gmail.com" class="formFormatting">
+            <label for="firstName">First Name:</label>
+            <input class="fName" id ="firstName"  name="firstName" type="text">
 
-        <label for="lastName">Last Name:</label>
-        <input id="lastName"  name="lastName" type="text">
+            <label for="lastName">Last Name:</label>
+            <input class="lName" id="lastName"  name="lastName" type="text"> </br>
 
-        <label for="emailInput">Email:</label>
-        <input id="emailInput" type="email">
+            <label for="emailInput">Email:</label>
+            <input class="inputEmail" id="emailInput" type="email"> </br>
 
-        <label for="emailBody">Comment or Inquiry:</label>
-        <input id="emailBody" type="text">
+            <label for="emailBody">Comment:</label>
+            <input class="inputInquiry" id="emailBody" type="text">
+
+            <button type="submit" value="Send">Submit</button>
+        </form>
     </section>
 
     <section>

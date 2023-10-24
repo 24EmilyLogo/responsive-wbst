@@ -8,12 +8,9 @@
 }
 .navbar{
     text-align:center;
-    font-size: 1.15em;
+    font-size:1.15em;
 }
 /*Txt and clrs*/
-script{
-    border-color:black;
-}
 body{
     background-color:#d3dad7;
     color:rgb(11, 18, 15);
@@ -107,10 +104,38 @@ p{
 .banner{
     display:block;
     margin:auto;
-    width:70%;
+    width:60%;
 }
     /*Contact*/
 label, input{
     display:block;
 }
-/* @media screen (min-width) */
+input{
+    width:25%;
+}
+@media only screen and (min-width:1020px){
+    input, label{
+        display:inline-block;
+    }
+    .contactSect{
+        text-align:center;
+    }
+   h2{
+        text-align:left;
+    }
+    .inputEmail, .inputInquiry{
+        /* width:24em; */
+        width: 100%;
+    }
+    .fName{
+        width:27%;
+    }
+    .lName{
+        width:32.5%;
+    }
+    .formFormatting{
+        display:inline-block;
+        width:40%;
+        text-align:left;
+    }
+}
